@@ -17,6 +17,6 @@ def main():
         pygame.display.flip()
         #limit game fps to 60
         dt += clock.tick(60) 
-    
+        player.update(dt)
 if __name__ == "__main__":
     main()
